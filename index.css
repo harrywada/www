@@ -1,0 +1,28 @@
+* {
+	font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 100ch;
+	padding: 0 3em;
+}
+
+hr ~ * {
+	max-width: 60ch;
+}
+
+ul#links {
+	list-style-type: none;
+	padding: 0;
+}
+ul#links li {
+	display: inline-block;
+}
+ul#links li + li {
+	margin-left: 20px;
+}
